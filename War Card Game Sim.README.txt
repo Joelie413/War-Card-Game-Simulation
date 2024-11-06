@@ -1,0 +1,11 @@
+This program simulates the Card Game 'War'.
+
+There is no input required from the user as this program is a simulation.
+player one and player 2 are assigned as CPUs that are given half a shuffled deck each.
+
+The CPUs then pick the card from the top of their hand by indexing the first card in a list compiled of their cards. Which ever card is higher wins the round and both cards go into the winning CPU's hand.
+
+In the event that each card the CPUs play are the same value, a 'war' begins. 
+During a war, the original cards are left on the (imaginary) table and each CPU draws three more cards to add to the table. Then the CPU's pick one more card and whichever card has a higher valuer wins. This process is repeated until either one of the CPUs runs out of cards or if they do not have enough cards to participate in 'war'.
+
+Writing this program was an exercise in using Classes, attributes and methods.
